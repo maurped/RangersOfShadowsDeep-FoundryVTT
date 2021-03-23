@@ -1,0 +1,23 @@
+{
+    "name": "rangersofshadowdeep",
+    "title": "rangersofshadowdeep",
+    "description": "The Rangers of shadow deep system for FoundryVTT!",
+    "version": "0.1.7",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
+    "templateVersion": 2,
+    "author": "capitaine maurped",
+    "esmodules": ["module/rangersofshadowdeep.js"],
+    "styles": ["css/rangersofshadowdeep.css"],
+    "scripts": [],
+    "packs": [],
+    "languages": [],
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "",
+    "secondaryTokenAttribute": "",
+    "url": "",
+    "manifest": "",
+    "download": "",
+    "license": "LICENSE.txt"
+  }
