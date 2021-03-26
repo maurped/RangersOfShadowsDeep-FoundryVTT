@@ -7,10 +7,12 @@ export default class rangersofshadowdeepActorSheet extends ActorSheet{
 
     getData(){
         const data = super.getData();
-        
+        let formData = super.getData();
+        formData.herbesPotionsList = this.actor.data.items.filter( item => item.type== 'herbesetpotions');
         console.log(data);
 
-        return data;
+        return data, formData;
+      
     }
 
     activateListeners(html){
