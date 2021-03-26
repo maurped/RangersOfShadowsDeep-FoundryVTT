@@ -71,8 +71,8 @@
             <th>Description</th>
             <th></th>
         </tr>
-    {{#each actor.items as |item key|}}
-    {{#if item.type === herbesetpotions}}
+    {{#each herbesPotionsList as |item key|}}
+    
     
     <tr class="item" data-item-id="{{item._id}}">
         <td><img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="32" width="32"/></td>
@@ -84,7 +84,7 @@
             <a class="item-delete" title="Suppression de l'objet"><i class="fas fa-trash"></i></a>
         </td>
     </tr>
-    {{/if}}
+    
     {{/each}}
     </table>
 
