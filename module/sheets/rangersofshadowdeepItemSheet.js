@@ -8,6 +8,7 @@ export default class rangersofshadowdeepItemSheet extends ItemSheet{
     getData(){
         const data = super.getData();
         
+        
         console.log(data);
 
         return data;

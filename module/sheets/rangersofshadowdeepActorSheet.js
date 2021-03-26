@@ -6,12 +6,14 @@ export default class rangersofshadowdeepActorSheet extends ActorSheet{
     }
 
     getData(){
-        const data = super.getData();
-        let formData = super.getData();
-        formData.herbesPotionsList = this.actor.data.items.filter( item => item.type== 'herbesetpotions');
-        console.log(data);
+        const formData = super.getData();
+        //let formData = super.getData();
+        formData.equipementList = this.actor.data.items.filter( item => item.type== 'herbesetpotions' |item.type== 'armesetarmuresmagique'|item.type== 'objetsmagiques'|item.type== 'equipementdebase');
+        formData.capasortList = this.actor.data.items.filter( item => item.type== 'sorts' |item.type== 'capacitesheroique');
+        
+        console.log(formData);
 
-        return data, formData;
+        return formData;
       
     }
 
